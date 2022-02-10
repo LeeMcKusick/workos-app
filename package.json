@@ -10,7 +10,7 @@
     "yarn": "1.22.4"
   },
   "scripts": {
-    "start": "node -r dotenv/config ./bin/www"
+    "start": "node server.js"
   },
   "dependencies": {
     "@workos-inc/node": "^1.6.0",
