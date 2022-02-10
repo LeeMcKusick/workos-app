@@ -21,7 +21,7 @@ const connection = "conn_01FVAYDEB2R0Y7D5P1KKH6F8JS";
 
 // Set the redirect URI to whatever URL the end user should land on post-authentication.
 // Ensure that the redirect URI you use is included in your allowlist inthe WorkOS Dashboard.
-const redirectURI = "http://localhost:3000/callback";
+const redirectURI = "https://workos-sso-demo-lskel.herokuapp.com/callback";
 
 const state = 'thisguysemail@gmail.com';
 
